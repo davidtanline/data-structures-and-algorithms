@@ -18,5 +18,5 @@ def contains_duplicate(nums:List[int]):
 
 # tests
 print("Case 1 --- Expected: True, Actual: ", contains_duplicate([1,2,3,1]))
-print("Case 1 --- Expected: False, Actual: ", contains_duplicate([1,2,3,4]))
-print("Case 1 --- Expected: True, Actual: ", contains_duplicate([1,1,1,3,3,4,3,2,4,2]))
+print("Case 2 --- Expected: False, Actual: ", contains_duplicate([1,2,3,4]))
+print("Case 3 --- Expected: True, Actual: ", contains_duplicate([1,1,1,3,3,4,3,2,4,2]))
