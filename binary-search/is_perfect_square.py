@@ -11,11 +11,11 @@ import math
 def isPerfectSquare(num: int) -> bool:
         l = 0
         r = num
-        while (l <= r):
+        while l <= r:
             mid = math.floor(l + (r - l) / 2)
-            if (mid * mid == num):
+            if mid * mid == num:
                 return True
-            if (mid * mid < num):
+            if mid * mid < num:
                 l = mid + 1
             else:
                 r = mid - 1
