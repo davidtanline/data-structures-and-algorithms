@@ -8,7 +8,7 @@ You must not use any built-in library function, such as sqrt.
 
 import math
 
-def isPerfectSquare(num: int) -> bool:
+def is_perfect_square(num: int) -> bool:
         l = 0
         r = num
         while l <= r:
