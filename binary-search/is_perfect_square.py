@@ -8,20 +8,22 @@ You must not use any built-in library function, such as sqrt.
 
 import math
 
+
 def is_perfect_square(num: int) -> bool:
-        l = 0
-        r = num
-        while l <= r:
-            mid = math.floor(l + (r - l) / 2)
-            if mid * mid == num:
-                return True
-            if mid * mid < num:
-                l = mid + 1
-            else:
-                r = mid - 1
-        return False
+    l = 0
+    r = num
+    while l <= r:
+        mid = math.floor(l + (r - l) / 2)
+        if mid * mid == num:
+            return True
+        if mid * mid < num:
+            l = mid + 1
+        else:
+            r = mid - 1
+    return False
+
 
 # tests
-print("Case 1 --- Expected: True, Actual: ", isPerfectSquare(16))
-print("Case 2 --- Expected: False, Actual: ", isPerfectSquare(14))
-print("Case 3 --- Expected: True, Actual: ", isPerfectSquare(1))
+print("Case 1 --- Expected: True, Actual: ", is_perfect_square(16))
+print("Case 2 --- Expected: False, Actual: ", is_perfect_square(14))
+print("Case 3 --- Expected: True, Actual: ", is_perfect_square(1))
