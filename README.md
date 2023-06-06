@@ -1,3 +1,2 @@
-Learning how to use my brain and solve problems efficiently.
+Learning how to use my brain and solve problems efficiently :)
 
-Alhamdulillah.
