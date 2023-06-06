@@ -1,1 +1,3 @@
-# Data-Structures-and-Algorithms
+Learning how to use my brain and solve problems efficiently.
+
+Alhamdulillah.
