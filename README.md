@@ -1,2 +1,2 @@
-Learning how to use my brain and solve problems efficiently :)
+Tracking some of my solutions to LeetCode problems centered around fundamental data structures & algorithms :)
 
