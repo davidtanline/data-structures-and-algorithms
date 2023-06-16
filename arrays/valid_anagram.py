@@ -21,4 +21,4 @@ def is_anagram(s: str, t: str):
 # tests
 print("Case 1 --- Expected: True, Actual: ", is_anagram("anagram", "nagaram"))
 print("Case 2 --- Expected: False, Actual: ", is_anagram("rat", "car"))
-print("Case 1 --- Expected: True, Actual: ", is_anagram("racecar", "carrace"))
+print("Case 3 --- Expected: True, Actual: ", is_anagram("racecar", "carrace"))
