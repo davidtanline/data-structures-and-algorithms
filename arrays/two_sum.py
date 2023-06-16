@@ -21,4 +21,4 @@ def two_sum(nums: List[int], target: int) :
 # tests
 print("Case 1 --- Expected: [0, 1], Actual: ", two_sum([2,7,11,15], 9))
 print("Case 2 --- Expected: [1, 2], Actual: ", two_sum([3,2,4], 6))
-print("Case 1 --- Expected: [0, 1], Actual: ", two_sum([3,3], 6))
+print("Case 3 --- Expected: [0, 1], Actual: ", two_sum([3,3], 6))
