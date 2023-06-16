@@ -29,4 +29,4 @@ def group_anagrams(strs: List[str]) -> List[List[str]]:
 # tests
 print("Case 1 --- Expected: [['bat'],['nat','tan'],['ate','eat','tea']], Actual: ", group_anagrams(["eat","tea","tan","ate","nat","bat"]))
 print("Case 2 --- Expected: [['']], Actual: ", group_anagrams([""]))
-print("Case 1 --- Expected: [['a']], Actual: ", group_anagrams(["a"]))
+print("Case 3 --- Expected: [['a']], Actual: ", group_anagrams(["a"]))
