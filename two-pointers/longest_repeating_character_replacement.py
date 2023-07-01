@@ -22,4 +22,4 @@ def character_replacement(s: str, k: int) -> int:
 
 # tests
 print("Case 1 --- Expected: 4, Actual: ", character_replacement("ABAB", 2))
-print("Case 2 --- Expected: 4, Actual: ", character_replacement("AABABBA", 1))
+print("Case 2 --- Expected: 5, Actual: ", character_replacement("AABABBA", 2))
